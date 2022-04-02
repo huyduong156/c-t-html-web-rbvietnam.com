@@ -1,0 +1,221 @@
+/* fonts */
+@font-face {
+    font-family:UTMFlavour;
+    src:url('./fonts/UTM\ Flavour_1.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+#chitiet {
+    font-size: 14px;
+    font-family: 'OpenSans', 'SourceSansPro', sans-serif;
+    line-height: 1.6;
+}
+.tab-content{
+    background: #fff;
+}
+.info_SP .product_title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #e97e3b;
+    line-height: 1.4;
+    display: block;
+    border-bottom: solid 1px;
+}
+.info_SP .price{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ec5598;
+}
+.info_SP .thongso{
+    background: #f0f0f0;
+    padding: 10px;
+    padding-bottom: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.info_SP .product_meta{
+    margin-top: 20px;
+}
+.info_SP .product_meta a {
+    color: #ec5598;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mua {
+    display: flex;
+}
+.mua input{
+    width: 70px;
+    height: 33px;
+    margin-top: 5px;
+}
+
+.mua .btn{
+    display: inline-block;
+    font-weight: normal;
+    background-color: #ec5598;
+    color: #fff;
+    border-radius: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 9px 15px;
+    border: none;
+    margin: 0;
+    line-height: 1;
+    height: 33px;
+    margin-left: 5px;
+}
+/* social */
+.dns_post_share {
+    display: inline-block;
+    width: 100%;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.dns_social_list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 10px 0;
+}
+.dns_social_list li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 30px;
+}
+.dns_social_list li a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    border: solid 1px #ccc;
+    color: #ec5598;
+}
+/* menu */
+.boloc{
+    margin-bottom: 30px;
+    clear: both;
+    padding: 10px;
+    background: #f5f5f5;
+}
+.boloc .product-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #4d4d4d;
+}
+.tuvan{
+    margin-bottom: 30px;
+    clear: both;
+    padding: 10px;
+}
+.tborder.bg-title{
+    font-family:UTMFlavour;
+    text-align: left;
+    padding: 5px 0;
+    color: #ec5598;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+.tborder.bg-title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 5px 0;
+    background-color: #ec5598;
+}
+.img-sp{
+    float: left;
+    width: 100%;
+}
+.price{
+    color: #ec5598;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+.row-1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 350px;
+    margin: 5px 0;
+    border-bottom: 1px dotted #cfcfcf;
+}
+.row-1 a:hover span{
+    color: rgb(250, 201, 39);
+    transition: 0.5s;
+}
+.row-1 a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width: 575px){
+    .danhsach .col-xs-6{
+        width: 50%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .container, .container-sm {
+        max-width: 730px;
+    }
+}
+  /* tab */
+  #nav_chitiet{
+      padding-left: 10px;
+  }
+  .tab_thongtin .nav-item {
+    padding-right: 0px;
+  }
+  .tab_thongtin .nav-item .nav-link{
+      background: #ebe9eb;
+      color: rgb(0, 0, 0);
+      border-bottom: #000;
+  }
+  .tab_thongtin .nav-item .active {
+      background: #000;
+      border-color: #000;
+  }
+  .tab_thongtin .nav-tabs{
+      border-bottom: 2px solid #000;
+  }
+
+  #myDIV {
+    display:none ;
+  }
+  #more {
+      text-align: center;
+  }
+  #more button {
+      text-align: center;
+      background: rgb(255, 255, 255);
+      border: 1px solid black;
+      color: #000;
+      width: 120px;
+  }
+  #more button:hover {
+    background: #000;
+    color: white;
+  }
+.fotorama__nav--thumbs .fotorama__nav__frame{
+    height:160px !important;
+}
+.fotorama__nav--thumbs .fotorama__nav__frame .fotorama__loaded--img img{
+    width: 100% !important;
+    height: 100% !important;
+    left: 0px;
+    top: 0px !important;
+}
+.fotorama__thumb-border{
+    height: 157px !important;
+    border-width:2px;
+    margin-top:2px
+}

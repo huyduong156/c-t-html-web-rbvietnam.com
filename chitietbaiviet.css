@@ -1,0 +1,165 @@
+/* fonts */
+@font-face {
+    font-family:UTMFlavour;
+    src:url('./fonts/UTM\ Flavour_1.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+.chitietbaiviet .post-detail .post-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ec5598;
+    font-family: inherit;
+
+}
+.post_meta.date-time {
+    font-style: italic;
+    font-size: 12px;
+}
+.fa-clock-o:before {
+    content: "\f017";
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+.chitietbaiviet .post-content h2 {
+    font-size: 20px;
+}
+.chitietbaiviet .post-content p {
+    font-family: 'OpenSans', 'SourceSansPro', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* social */
+.dns_post_share {
+    display: inline-block;
+    width: 100%;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    text-align: center;
+}
+.dns_social_list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 10px 0;
+}
+.dns_social_list li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 30px;
+}
+.dns_social_list li a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    border: solid 1px #ccc;
+}
+
+
+.boloc{
+    margin-bottom: 30px;
+    clear: both;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+.boloc .product-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #4d4d4d;
+}
+.tuvan{
+    margin-bottom: 30px;
+    clear: both;
+    padding: 10px;
+}
+.tborder.bg-title{
+    font-family:UTMFlavour;
+    text-align: left;
+    padding: 5px 0;
+    color: #ec5598;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+.tborder.bg-title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 5px 0;
+    background-color: #ec5598;
+}
+.img-sp{
+    float: left;
+    width: 100%;
+
+}
+.price{
+    color: #ec5598;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+.row-1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 350px;
+    margin: 5px 0;
+    border-bottom: 1px dotted #cfcfcf;
+}
+.tuvan .blog li {
+    border-bottom: 1px dotted #cfcfcf;
+    list-style-type: none;
+    background: url(./image/list-style.png)left center no-repeat;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: 'OpenSans', 'SourceSansPro', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-bottom: 5px;
+}
+.tuvan .blog {
+    padding: 5px;
+    
+}
+.tuvan .blog a,
+.menu_blog a{
+    color: black;
+}
+.tuvan .blog li:hover a,
+.menu_blog li:hover a{
+    color: rgb(236, 170, 47);
+    text-decoration: none;
+}
+.tuvan .blog li:hover,
+.menu_blog li:hover{
+    padding-left: 20px;
+    transition: 0.7s;
+}
+@media screen and (max-width: 575px){
+    .row-1{
+        text-align: center;
+    }
+    .danhsach .col-xs-6{
+        width: 50%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .container, .container-sm {
+        max-width: 730px;
+    }
+}

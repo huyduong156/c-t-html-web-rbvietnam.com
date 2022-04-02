@@ -1,0 +1,170 @@
+/* fonts */
+@font-face {
+    font-family:UTMFlavour;
+    src:url('./fonts/UTM\ Flavour_1.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+/* page title */
+.page-title .title{
+    font-family: UTMFlavour;
+    text-align: left;
+    padding: 5px 0;
+    color: #ec5598;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+.page-title .title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 5px 0;
+    background-color: #ec5598;
+}
+
+/* product */
+.card {
+    border: none;
+}
+.product .card{
+    padding: 10px;
+}
+.product .col-lg-3{
+    margin-bottom: 20px;
+}
+.product .card .card-img-top{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 1em;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.product .card .info_card{
+    height: 90px;
+}
+.product .card-body {
+    text-align: center;
+    padding: 0px;
+    height: 125px;
+}
+.product .card .card-title {
+    font-size: 15px !important;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #2e2e2e;
+    margin-bottom: 7.5px;
+}
+
+.product .card .card-text{
+    font-weight: 600;
+    font-size: 18px;
+    color: #ec5598;
+    margin-bottom: 0px;
+}
+.product .card .btn{
+    display: inline-block;
+    font-weight: normal;
+    background-color: #ec5598;
+    color: #fff;
+    border-radius: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-top: 5px !important;
+    border: none;
+    margin: 0;
+    line-height: 1;
+}
+/* chuyển trang */
+.nav_pager .pagination > li {
+    display: inline-block;
+    margin: 0 5px !important;
+    border: none!Important;
+}
+
+.nav_pager .pagination > li a:hover,
+.woocommerce-pagination .page-numbers li a:hover, 
+.woocommerce-pagination .page-numbers li .current,
+ .nav_pager .pagination > li.active span {
+    background-color: #f01b8f !important;
+    color: #fff !important;
+}
+.nav_pager .pagination > li a,
+ .woocommerce-pagination .page-numbers li a,
+  .woocommerce-pagination .page-numbers li span,
+   .nav_pager .pagination > li span {
+    border: none!Important;
+    border-radius: 100%;
+    border: none;
+    background-color: #f3f3f3;
+    color: #272727;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+}
+.pagination {
+    display: block;
+}
+.product .col-xs-6{
+    width: 50%;
+}
+
+
+
+/* mobile */
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 780px;
+}
+}
+@media (min-width: 767px){
+.container, .container-sm {
+    max-width: 1170px;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .product .card .info_card{
+        font-size: 90%;
+    }
+    .product .card .info_card{
+        height: 115px;
+    }
+    .product .card-body {
+        height: 150px;
+    }
+    .product .col-xs-6,
+    .product .col-sm-6 {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .product .card .info_card{
+        font-size: 95%;
+    }
+    .product .card .info_card{
+        height: 110px;
+    }
+    .product .card-body {
+        height: 140px;
+    }
+    .product .col-md-4 {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+

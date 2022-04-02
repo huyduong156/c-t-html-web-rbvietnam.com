@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+
+<script src="./jquery.colorbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="./colorbox.css">
+
+<title>Title</title>
+</head>
+<body><div>
+  <a class='gallery' href='https://rbvietnam.com/wp-content/uploads/2021/07/cham-da-chuan-han-1-240x150.jpg'>Photo_1</a>
+  <a class='gallery' href='../T1_nội thất nhà xinh/img/1-Thiet-ke-noi-that-nha-dep-Viet-can-chuyen-nghiep.jpg'>Photo_2</a>
+  <a class='gallery' href='../T1_suanonyenloan/img/image-section-6.png'>Photo_3</a>
+</div>
+  <script>
+    $(".gallery").click(function(event){
+      var pop_img = $(this).attr('href');
+      $("body").append('<div class="pop_img_wrap"><div class="pop_img"><img src="'+pop_img+'"></div></div>')
+      
+      $(".pop_img_wrap").click(function(event){
+        setTimeout(function(){
+          $(".pop_img_wrap").remove()
+        })
+      })
+
+      return false
+    })
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>

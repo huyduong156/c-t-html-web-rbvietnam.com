@@ -1,0 +1,135 @@
+
+/* title */
+
+.page-title .title {
+    margin: 20px 0;
+    padding-bottom: 25px;
+    font-size: 26px;
+    color: #ec5598;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: inherit;
+    text-align: center;
+}
+.page-title .title:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 5px auto 0;
+    background-color: #ec5598;
+}
+/* blog */
+
+.blog .link_img img{
+    margin: 10px 0px 5px 0px;
+    width: 100%;
+}
+.blog .col-7 {
+    opacity: 0.8;
+}
+.post_more a,
+.post-title a {
+    color: #ec5598;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'OpenSans', 'SourceSansPro', sans-serif;
+    font-size: 14px;
+}
+.more-btn {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.fa-clock-o:before {
+    content: "\f017";
+}
+.post_meta.date-time {
+    font-style: italic;
+    font-size: 12px;
+}
+.post_more {
+    text-align: right;
+}
+.blog .row {
+    padding-bottom: 20px;
+}
+/* chuyển trang */
+.nav_pager .pagination > li {
+    display: inline-block;
+    margin: 0 5px !important;
+    border: none !important;
+}
+
+.nav_pager .pagination > li a:hover,
+.woocommerce-pagination .page-numbers li a:hover, 
+.woocommerce-pagination .page-numbers li .current,
+ .nav_pager .pagination > li.active span {
+    background-color: #f01b8f !important;
+    color: #fff !important;
+}
+.nav_pager .pagination > li a,
+ .woocommerce-pagination .page-numbers li a,
+  .woocommerce-pagination .page-numbers li span,
+   .nav_pager .pagination > li span {
+    border: none!Important;
+    border-radius: 100%;
+    border: none;
+    background-color: #f3f3f3;
+    color: #272727;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+}
+.pagination {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .blog{
+        font-size: 55%;
+    }
+}
+
+@media (min-width: 576px){
+    .container, .container-sm {
+        max-width: 780px;
+    }
+    }
+@media (min-width: 767px){
+.container, .container-sm {
+    max-width: 1170px;
+}
+}
+/* --------main-------- */
+.main {
+  padding-top: 50px;
+}
+nav.woocommerce-breadcrumb a {
+  color: black;
+}
+.tborder, .woocommerce .checkout h3, h1.page-title:not(.title) {
+  font-family: UTMFlavour !important;
+  text-align: left;
+  padding: 5px 0;
+  color: #f01b8f;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+.tborder:after, .woocommerce .checkout h3:after, h1.page-title:not(.title):after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 50px;
+  margin: 5px 0;
+  background-color: #f01b8f;
+}

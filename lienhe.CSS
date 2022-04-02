@@ -1,0 +1,117 @@
+/* fonts */
+@font-face {
+    font-family:UTMFlavour;
+    src:url('./fonts/UTM\ Flavour_1.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+
+.text-center{
+    text-align: center;
+}
+/* title */
+
+.page-title .title {
+    margin: 20px 0;
+    padding-bottom: 25px;
+    font-size: 26px;
+    color: #ec5598;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: inherit;
+    text-align: center;
+}
+.page-title .title:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin: 5px auto 0;
+    background-color: #ec5598;
+}
+
+
+.tborder{
+    font-family: UTMFlavour;
+    text-align: left;
+    padding: 5px 0;
+    color: #ec5598;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.lienhe .wpb_wrapper img{
+    display: block;
+    margin: 0 auto;
+}
+.info-list li.info-title {
+    color: #fbca4a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+a {
+    color: #ec5598;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #ec5598;
+}
+.from_submit {
+    text-align: center;
+}
+.from_submit button{
+    width: auto;
+    font-family: 'OpenSans', 'SourceSansPro', sans-serif;
+    font-size: 14px;
+    height: 35px;
+    line-height: normal;
+    text-align: center;
+    background: #ec5598;
+    border-width: 1px;
+    border-color: #ec5598;
+    border-style: solid;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: normal;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-shadow: none;
+    padding: 6px 11px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    vertical-align: middle;
+}
+.from_submit button:hover{
+    border-color: #e6e6e6;
+    background: #ffffff;
+    color: #000000;
+}
+@media screen and (max-width: 700px){
+  .gg_map {
+    height: 70%;
+    width: 97%;
+  }
+}
+@media (min-width: 600px){
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
